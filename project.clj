@@ -1,6 +1,6 @@
-(defproject opencv-crash-repro "0.1.0-SNAPSHOT"
-  :description "FIXME: write description"
-  :url "http://example.com/FIXME"
+(defproject JDK-8059010 "0.1.0-SNAPSHOT"
+  :description "Bug repro project"
+  :url "https://bugs.openjdk.java.net/browse/JDK-8059010"
   :license {:name "Eclipse Public License"
             :url "http://www.eclipse.org/legal/epl-v10.html"}
   :dependencies [[org.clojure/clojure "1.6.0"]
@@ -20,5 +20,5 @@
                                :username :env}}
   
   :profiles { :uberjar { :aot :all } }
-  :main opencv-crash-repro.main
+  :main JDK-8059010.main
   )
